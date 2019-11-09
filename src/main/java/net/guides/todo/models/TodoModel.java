@@ -9,6 +9,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.Size;
 
+import org.hibernate.envers.Audited;
+
 /**
  * @author RAHUL RAO GONDA
  *
@@ -16,6 +18,7 @@ import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "todos")
+@Audited
 public class TodoModel {
 
 	@Id
