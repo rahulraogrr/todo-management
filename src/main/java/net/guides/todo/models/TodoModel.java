@@ -22,7 +22,7 @@ import org.hibernate.envers.Audited;
 public class TodoModel {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.TABLE)
 	private long id;
 
 	private String userName;

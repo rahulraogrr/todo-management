@@ -1,4 +1,4 @@
-package net.guides.todo.security;
+package net.guides.todo.core.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
